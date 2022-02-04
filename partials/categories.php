@@ -1,4 +1,4 @@
-<section data-scroll-section class="pt-4">
+<section data-scroll-section class="pt-">
 
 <h4 class="wordCarousel" >
     <div>
@@ -23,18 +23,24 @@
 
   <div class="main-categories">
     <a href="categories.php">
-      <div class=" item-categories" data-scroll data-scroll-speed="3">
-        <div class="pt-13" data-scroll data-scroll-repeat>
+      <div class=" item-categories" data-scroll data-scroll-speed="2">
+        <div class="" data-scroll data-scroll-repeat>
           <div data-scroll data-scroll-speed="-2">
             <div class="main-card">
               <div class="main-card-content revealer-img"  style="background:transparent  url(https://pngimg.com/uploads/polo_shirt/polo_shirt_PNG8170.png)"></div>
               <h2>
-                <div class="c-lerp-block titlte-categories">
-                  <span class="c-lerp-block_index" data-scroll data-scroll-delay="0.06" data-scroll-speed="3" data-scroll-repeat>
+                <div class=" titlte-categories">
+                  <span class="c-lerp-block_index" data-scroll data-scroll-delay="0.01" data-scroll-speed="3" data-scroll-repeat>
                     01
                   </span>
                   <br>
-                  <span class="c-lerp-block_title" data-scroll>
+            
+                  <span class="c-lerp-block_title" data-scroll data-scroll-delay="0.01" data-scroll-speed="3">
+                        <span>
+                            CLOTHING
+                        </span>
+                    </span>
+                <!---  <span class="c-lerp-block_title" data-scroll>
                     <span data-scroll data-scroll-delay="0.13" data-scroll-speed="6">C</span>
                     <span data-scroll data-scroll-delay="0.12" data-scroll-speed="6">l</span>
                     <span data-scroll data-scroll-delay="0.11" data-scroll-speed="6"> o</span>
@@ -43,7 +49,7 @@
                     <span data-scroll data-scroll-delay="0.08" data-scroll-speed="6">i</span>
                     <span data-scroll data-scroll-delay="0.07" data-scroll-speed="6">n</span>
                     <span data-scroll data-scroll-delay="0.06" data-scroll-speed="6">g</span>
-                  </span>
+                  </span>-->
                 </div>
               </h2>
               <p>View more</p>
@@ -54,23 +60,29 @@
     </a>
 
     <a href="categories.php">
-      <div class=" item-categories" data-scroll data-scroll-speed="3">
-        <div class="pt-13" data-scroll data-scroll-repeat>
+      <div class=" item-categories" data-scroll data-scroll-speed="2">
+        <div class="" data-scroll data-scroll-repeat>
           <div data-scroll data-scroll-speed="-2">
             <div class="main-card">
               <div class="main-card-content revealer-img" style="background:transparent  url(http://imgfz.com/i/vcWeTR4.png)"></div>
               <h2>
                 <div class="c-lerp-block titlte-categories">
-                  <span class="c-lerp-block_index" data-scroll data-scroll-delay="0.06" data-scroll-speed="6" data-scroll-repeat>
+                  <span class="c-lerp-block_index" data-scroll data-scroll-delay="0.1" data-scroll-speed="3" data-scroll-repeat>
                     02
                   </span>
                   <br>
+                  <span class="c-lerp-block_title" data-scroll data-scroll-delay="0.1" data-scroll-speed="3">
+                        <span>
+                            HOME
+                        </span>
+                    </span>
+                 <!--- <br>
                   <span class="c-lerp-block_title" data-scroll>
                     <span data-scroll data-scroll-delay="0.13" data-scroll-speed="6">H</span>
                     <span data-scroll data-scroll-delay="0.12" data-scroll-speed="6">o</span>
                     <span data-scroll data-scroll-delay="0.11" data-scroll-speed="6"> m</span>
                     <span data-scroll data-scroll-delay="0.1" data-scroll-speed="6">e</span>
-                  </span>
+                  </span>--->
                 </div>
               </h2>
               <p>View more</p>
@@ -81,17 +93,23 @@
     </a>
 
     <a href="categories.php">
-      <div class=" item-categories" data-scroll data-scroll-speed="3">
-        <div class="pt-13" data-scroll data-scroll-repeat>
-          <div data-scroll data-scroll-speed="-1">
+      <div class=" item-categories" data-scroll data-scroll-speed="2">
+        <div class="" data-scroll data-scroll-repeat>
+          <div data-scroll data-scroll-speed="-2">
             <div class="main-card">
               <div class="main-card-content" style="background:transparent  url(http://imgfz.com/i/vi7dfUN.png)"></div>
               <h2>
                 <div class="c-lerp-block titlte-categories">
-                  <span class="c-lerp-block_index" data-scroll data-scroll-delay="0.06" data-scroll-speed="6" data-scroll-repeat>
+                  <span class="c-lerp-block_index" data-scroll data-scroll-delay="0.1" data-scroll-speed="3" data-scroll-repeat>
                     03
                   </span>
                   <br>
+                  <span class="c-lerp-block_title" data-scroll data-scroll-delay="0.1" data-scroll-speed="3">
+                        <span>
+                            VEGAN AF & Alcohol
+                        </span>
+                    </span>
+                 <!--- <br>
                   <span class="c-lerp-block_title" data-scroll>
                     <span data-scroll data-scroll-delay="0.13" data-scroll-speed="6">V</span>
                     <span data-scroll data-scroll-delay="0.12" data-scroll-speed="6">e</span>
@@ -110,7 +128,7 @@
                     <span data-scroll data-scroll-delay="0.06" data-scroll-speed="6">h</span>
                     <span data-scroll data-scroll-delay="0.06" data-scroll-speed="6">o</span>
                     <span data-scroll data-scroll-delay="0.06" data-scroll-speed="6">l</span>
-                  </span>
+                  </span>--->
                 </div>
               </h2>
               <p>View more</p>

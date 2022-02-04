@@ -6,22 +6,43 @@ $(document).ready(function () {
 
 /* Animacio de lteras (logo) */
 
-
+$(window).on("load", function () {
+  $('header').appendTo('body');
+});
 
 const div = document.querySelectorAll(".letterlogo");
 setTimeout(function () {
   TweenMax.staggerFrom(div[0].children, 0.45, { y: 50, opacity: 0 }, 0.1);
    document.getElementById("color-letter").style.color = "black";
+   document.getElementById("letter-invert").style.opacity = "1";
+
 
 }, 3000);
 
 
+$(document).ready(function() {
+  $("#color_mode").on("change", function () {
+      colorModePreview(this);
+  })
+});
+
+function colorModePreview(ele) {
+  if($(ele).prop("checked") == true){
+      $('body').addClass('dark-preview');
+      $('body').removeClass('white-preview');
+  }
+  else if($(ele).prop("checked") == false){
+      $('body').addClass('white-preview');
+      $('body').removeClass('dark-preview');
+  }
+}
 
 
 
 
 
-/* Animacion del toggle dark/Light */
+
+/* Animacion del toggle dark/Light *//*
 const animate = gsap.timeline({ paused: true });
 const animateBackground = new TimelineMax({ paused: true });
 let toggle = true;
@@ -54,7 +75,7 @@ document.getElementsByClassName("switch")[0].addEventListener("click", () => {
     animateBackground.reverse();
   }
   toggle = !toggle;
-});
+});*/
 
 /* Animacion de entrada banner */
 const hero = document.querySelector(".hero");
@@ -67,12 +88,12 @@ const headline = document.querySelector(".headline");
 
 const tl = new TimelineMax();
 
-tl.fromTo(hero, 1, { height: "0%" }, { height: "80%", ease: Power2.easeInOut })
+tl.fromTo(hero, 1, { height: "0%" }, { height: "100%", ease: Power2.easeInOut })
   .fromTo(
     hero,
     1.2,
-    { width: "100%" },
-    { width: "80%", ease: Power2.easeInOut }
+    { width: "80%" },
+    { width: "100%", ease: Power2.easeInOut }
   )
   .fromTo(
     slider,

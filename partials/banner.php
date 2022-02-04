@@ -1,5 +1,5 @@
 <div data-scroll-section>
-    <div class="o-container">
+    <div class="">
         <section class="main-banner">
             <div class="hero">
                 <video class="" autoplay muted loop>
